@@ -1,16 +1,40 @@
 .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 7px 25px;
     width: 100%;
+    color: var(--textColor-sidebar);
 
     .title {
         font-size: 13px;
         font-weight: 700;
-        color: var(--textColor-sidebar);
+    }
+
+    .icon-svg {
+        margin-right: 8px;
+    }
+
+    .icon-play {
+        display: none;
+    }
+
+    a {
+        width: 100%;
     }
 
     &:hover {
         color: var(--text-hover);
         background-color: var(--bg-hover);
         cursor: pointer;
+    }
+
+    &:hover .icon-play {
+        display: block;
+    }
+}
+.textSmall {
+    .title {
+        font-weight: 400;
     }
 }

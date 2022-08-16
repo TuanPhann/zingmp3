@@ -13,9 +13,26 @@
     --bg-sidebar: hsla(0, 0%, 100%, 0.05);
     --textColor-sidebar: #a0a0a0;
     --text-hover: #fff;
+    --color-text: #fff;
+    --btn-live: #ef0f0f;
+    --color-black: #000;
 }
 
 body {
     font-family: 'Inter', sans-serif;
     background-color: var(--bg-layout);
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+.active {
+    background-color: var(--bg-hover);
+    color: var(--color-text);
 }
