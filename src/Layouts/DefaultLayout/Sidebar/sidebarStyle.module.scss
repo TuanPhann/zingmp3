@@ -1,0 +1,16 @@
+.wraper {
+    position: relative;
+    width: 237px;
+    background-color: var(--bg-sidebar);
+}
+
+.header-logo {
+    padding: 15px 25px 15px 28px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    height: 40px;
+}

@@ -1,0 +1,16 @@
+.wrap {
+    padding: 7px 25px;
+    width: 100%;
+
+    .title {
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--textColor-sidebar);
+    }
+
+    &:hover {
+        color: var(--text-hover);
+        background-color: var(--bg-hover);
+        cursor: pointer;
+    }
+}

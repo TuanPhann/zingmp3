@@ -7,6 +7,15 @@
     padding: 0;
 }
 
+:root {
+    --bg-hover: hsla(0, 0%, 100%, 0.1);
+    --bg-layout: #1e1e1e;
+    --bg-sidebar: hsla(0, 0%, 100%, 0.05);
+    --textColor-sidebar: #a0a0a0;
+    --text-hover: #fff;
+}
+
 body {
     font-family: 'Inter', sans-serif;
+    background-color: var(--bg-layout);
 }
