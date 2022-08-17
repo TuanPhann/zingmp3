@@ -4,7 +4,16 @@ import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
-function Button({ to, href, children, btnUpdateVip = false, btnLive = false, onClick, ...passProp }) {
+function Button({
+    to,
+    href,
+    children,
+    btnHeader = false,
+    btnUpdateVip = false,
+    btnLive = false,
+    onClick,
+    ...passProp
+}) {
     let Compn = 'button';
     const Props = {
         onClick,
@@ -22,6 +31,7 @@ function Button({ to, href, children, btnUpdateVip = false, btnLive = false, onC
     const clases = cx('wrapper', {
         btnLive,
         btnUpdateVip,
+        btnHeader,
     });
     return (
         <Compn className={clases} {...Props}>
