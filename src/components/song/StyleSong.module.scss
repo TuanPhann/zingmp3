@@ -1,0 +1,35 @@
+.item-song {
+    padding: 8px;
+}
+
+.info-song {
+    display: flex;
+    align-items: center;
+}
+
+.music {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.info {
+    line-height: 1.7;
+    h4 {
+        color: var(--text-primary);
+        font-size: 14px;
+        font-weight: 500;
+    }
+    p {
+        font-size: 12px;
+        font-weight: 300;
+        color: var(--text-secondary);
+    }
+}

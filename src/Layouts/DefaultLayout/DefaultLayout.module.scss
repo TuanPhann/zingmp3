@@ -1,7 +1,17 @@
+.container {
+    width: 100%;
+}
+
 .main {
     display: flex;
 }
 
 .content {
-    padding-left: 60px;
+    padding: 0 60px;
+    width: 70.21%;
+    border-right: 1px solid var(--border-primary);
+}
+
+.playlist {
+    width: 329px;
 }

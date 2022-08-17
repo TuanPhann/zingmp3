@@ -16,7 +16,9 @@ function DefaultLayout({ children }) {
                     <Header />
                     <div>{children}</div>
                 </div>
-                <Playlist />
+                <div className={cx('playlist')}>
+                    <Playlist />
+                </div>
             </div>
             <div className={cx('control')}>
                 <MusicControl />

@@ -7,6 +7,8 @@ const cx = classNames.bind(styles);
 function TitleSidebar({
     to,
     href,
+    btnActive = false,
+    btnPlaylist = false,
     textSmall = false,
     leftIcon = false,
     rightIcon = false,
@@ -31,6 +33,8 @@ function TitleSidebar({
 
     const classes = cx('wrap', {
         textSmall,
+        btnPlaylist,
+        btnActive,
     });
 
     return (

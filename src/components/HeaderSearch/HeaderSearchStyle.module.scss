@@ -1,0 +1,19 @@
+.wrap {
+    width: 72.2%;
+    position: relative;
+    border-radius: 20px;
+    height: 40px;
+    background-color: var(--alpha-bg);
+    margin-left: 12px;
+
+    input {
+        width: 86%;
+        font-size: 14px;
+        color: var(--color-header);
+        padding: 3px 0;
+        line-height: 34px;
+        background-color: transparent;
+        outline: none;
+        border: none;
+    }
+}

@@ -9,11 +9,12 @@ const cx = classNames.bind(styles);
 function Header() {
     return (
         <div className={cx('wrapper')}>
-            <div className={cx('icon-arrow')}>
+            <div className={cx('iconArrow-searchInput')}>
                 <ArrowLeftIcon />
                 <ArrowRightIcon />
+                <HeaderSearch />
             </div>
-            <HeaderSearch />
+
             <BtnHeader />
         </div>
     );

@@ -1,5 +1,5 @@
 function Individual() {
-    return <h1>individual</h1>;
+    return <span>content</span>;
 }
 
 export default Individual;

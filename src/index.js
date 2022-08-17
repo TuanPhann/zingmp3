@@ -4,13 +4,17 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import GlobalStyle from './componentGlobal/GlobalStyle';
+import DataSongs from './data/songs.json';
+import { Songs } from './Context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <GlobalStyle>
-            <App />
-        </GlobalStyle>
+        <Songs.Provider value={DataSongs}>
+            <GlobalStyle>
+                <App />
+            </GlobalStyle>
+        </Songs.Provider>
     </React.StrictMode>,
 );
 

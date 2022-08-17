@@ -20,6 +20,17 @@ import { Search } from '@styled-icons/evil/Search';
 import { Gem } from '@styled-icons/bootstrap/Gem';
 import { Upload } from '@styled-icons/feather/Upload';
 import { Settings } from '@styled-icons/feather/Settings';
+import { ClockAlarm } from '@styled-icons/fluentui-system-filled/ClockAlarm';
+import { DotsHorizontal } from '@styled-icons/heroicons-outline/DotsHorizontal';
+import { Heart } from '@styled-icons/heroicons-outline/Heart';
+import { SkipPrevious } from '@styled-icons/boxicons-regular/SkipPrevious';
+import { PlayCircle } from '@styled-icons/feather/PlayCircle';
+import { SkipNext } from '@styled-icons/boxicons-regular/SkipNext';
+import { Shuffle } from '@styled-icons/ionicons-outline/Shuffle';
+import { Repeat } from '@styled-icons/ionicons-outline/Repeat';
+import { Microphone } from '@styled-icons/heroicons-outline/Microphone';
+import { Restore } from '@styled-icons/fluentui-system-regular/Restore';
+import { VolumeFull } from '@styled-icons/boxicons-regular/VolumeFull';
 
 // icon title Individual Sidebar
 const LbMusic = styled(LibraryMusic)`
@@ -233,8 +244,10 @@ export const ArrowRightIcon = () => {
 
 // icon search header
 const IconSearch = styled(Search)`
-    width: 25px;
+    width: 50px;
     height: 26px;
+    color: #878484;
+    cursor: pointer;
 `;
 export const SearchIcon = () => {
     return (
@@ -390,6 +403,160 @@ export const SettingsIcon = () => {
     return (
         <span>
             <IconSettings />
+        </span>
+    );
+};
+
+// icon clock playlist
+const IconClockAlarm = styled(ClockAlarm)`
+    width: 20px;
+    height: 20px;
+    color: #878484;
+`;
+export const ClockAlarmIcon = () => {
+    return (
+        <span>
+            <IconClockAlarm />
+        </span>
+    );
+};
+
+// icon threedot playlist
+const IconDotsHorizontal = styled(DotsHorizontal)`
+    width: 20px;
+    height: 20px;
+    color: #878484;
+`;
+export const DotsHorizontalIcon = () => {
+    return (
+        <span>
+            <IconDotsHorizontal />
+        </span>
+    );
+};
+
+// icon Heart MusicControl
+const IconHeart = styled(Heart)`
+    width: 20px;
+    height: 20px;
+    color: #878484;
+`;
+export const HeartIcon = () => {
+    return (
+        <span>
+            <IconHeart />
+        </span>
+    );
+};
+
+// icon random MusicControl
+const IconShuffle = styled(Shuffle)`
+    width: 20px;
+    height: 20px;
+    color: #878484;
+`;
+export const ShuffleIcon = () => {
+    return (
+        <span>
+            <IconShuffle />
+        </span>
+    );
+};
+
+// icon prev MusicControl
+const IconSkipPrevious = styled(SkipPrevious)`
+    width: 20px;
+    height: 20px;
+    color: #878484;
+`;
+export const SkipPreviousIcon = () => {
+    return (
+        <span>
+            <IconSkipPrevious />
+        </span>
+    );
+};
+
+// icon play MusicControl
+const IconPlayCircle = styled(PlayCircle)`
+    width: 20px;
+    height: 20px;
+    color: #878484;
+`;
+export const PlayCircleIcon = () => {
+    return (
+        <span>
+            <IconPlayCircle />
+        </span>
+    );
+};
+
+// icon next MusicControl
+const IconSkipNext = styled(SkipNext)`
+    width: 20px;
+    height: 20px;
+    color: #878484;
+`;
+export const SkipNextIcon = () => {
+    return (
+        <span>
+            <IconSkipNext />
+        </span>
+    );
+};
+
+// icon reload MusicControl
+const IconRepeat = styled(Repeat)`
+    width: 20px;
+    height: 20px;
+    color: #878484;
+`;
+export const RepeatIcon = () => {
+    return (
+        <span>
+            <IconRepeat />
+        </span>
+    );
+};
+
+// icon Microphone MusicControl
+const IconMicrophone = styled(Microphone)`
+    width: 20px;
+    height: 20px;
+    color: #878484;
+`;
+export const MicrophoneIcon = () => {
+    return (
+        <span>
+            <IconMicrophone />
+        </span>
+    );
+};
+
+// icon Restore MusicControl
+const IconRestore = styled(Restore)`
+    width: 20px;
+    height: 20px;
+    color: #878484;
+`;
+export const RestoreIcon = () => {
+    return (
+        <span>
+            <IconRestore />
+        </span>
+    );
+};
+
+// icon VolumeFull MusicControl
+const IconVolumeFull = styled(VolumeFull)`
+    width: 20px;
+    height: 20px;
+    color: #878484;
+`;
+export const VolumeFullIcon = () => {
+    return (
+        <span>
+            <IconVolumeFull />
         </span>
     );
 };
