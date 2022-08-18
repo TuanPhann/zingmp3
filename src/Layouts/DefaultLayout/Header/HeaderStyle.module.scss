@@ -3,6 +3,13 @@
     justify-content: space-between;
     align-items: center;
     height: 70px;
+    background-color: var(--bg-layout);
+    box-shadow: 0 3px 5px var(--sticky-header-box-shadow);
+    padding: 0 60px;
+    position: fixed;
+    left: 237px;
+    right: 325px;
+    z-index: 1000;
 }
 
 .iconArrow-searchInput {

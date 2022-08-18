@@ -31,6 +31,7 @@ import { Repeat } from '@styled-icons/ionicons-outline/Repeat';
 import { Microphone } from '@styled-icons/heroicons-outline/Microphone';
 import { Restore } from '@styled-icons/fluentui-system-regular/Restore';
 import { VolumeFull } from '@styled-icons/boxicons-regular/VolumeFull';
+import { KeyboardArrowRight } from '@styled-icons/material-outlined/KeyboardArrowRight';
 
 // icon title Individual Sidebar
 const LbMusic = styled(LibraryMusic)`
@@ -440,6 +441,7 @@ const IconHeart = styled(Heart)`
     width: 20px;
     height: 20px;
     color: #878484;
+    margin-right: 15px;
 `;
 export const HeartIcon = () => {
     return (
@@ -451,9 +453,10 @@ export const HeartIcon = () => {
 
 // icon random MusicControl
 const IconShuffle = styled(Shuffle)`
-    width: 20px;
-    height: 20px;
-    color: #878484;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    padding: 5px;
 `;
 export const ShuffleIcon = () => {
     return (
@@ -465,9 +468,10 @@ export const ShuffleIcon = () => {
 
 // icon prev MusicControl
 const IconSkipPrevious = styled(SkipPrevious)`
-    width: 20px;
-    height: 20px;
-    color: #878484;
+    width: 46px;
+    height: 46px;
+    color: #fff;
+    padding: 5px;
 `;
 export const SkipPreviousIcon = () => {
     return (
@@ -479,9 +483,10 @@ export const SkipPreviousIcon = () => {
 
 // icon play MusicControl
 const IconPlayCircle = styled(PlayCircle)`
-    width: 20px;
-    height: 20px;
-    color: #878484;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    padding: 5px;
 `;
 export const PlayCircleIcon = () => {
     return (
@@ -493,9 +498,10 @@ export const PlayCircleIcon = () => {
 
 // icon next MusicControl
 const IconSkipNext = styled(SkipNext)`
-    width: 20px;
-    height: 20px;
-    color: #878484;
+    width: 46px;
+    height: 46px;
+    color: #fff;
+    padding: 5px;
 `;
 export const SkipNextIcon = () => {
     return (
@@ -507,9 +513,10 @@ export const SkipNextIcon = () => {
 
 // icon reload MusicControl
 const IconRepeat = styled(Repeat)`
-    width: 20px;
-    height: 20px;
-    color: #878484;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    padding: 5px;
 `;
 export const RepeatIcon = () => {
     return (
@@ -521,9 +528,10 @@ export const RepeatIcon = () => {
 
 // icon Microphone MusicControl
 const IconMicrophone = styled(Microphone)`
-    width: 20px;
-    height: 20px;
-    color: #878484;
+    width: 22px;
+    height: 22px;
+    color: #fff;
+    margin-left: 15px;
 `;
 export const MicrophoneIcon = () => {
     return (
@@ -535,9 +543,10 @@ export const MicrophoneIcon = () => {
 
 // icon Restore MusicControl
 const IconRestore = styled(Restore)`
-    width: 20px;
-    height: 20px;
-    color: #878484;
+    width: 22px;
+    height: 22px;
+    color: #fff;
+    margin-left: 15px;
 `;
 export const RestoreIcon = () => {
     return (
@@ -549,14 +558,28 @@ export const RestoreIcon = () => {
 
 // icon VolumeFull MusicControl
 const IconVolumeFull = styled(VolumeFull)`
-    width: 20px;
-    height: 20px;
-    color: #878484;
+    width: 22px;
+    height: 22px;
+    color: #fff;
+    margin-left: 15px;
 `;
 export const VolumeFullIcon = () => {
     return (
         <span>
             <IconVolumeFull />
+        </span>
+    );
+};
+
+// icon arrowRight Discover
+const IconKeyboardArrowRight = styled(KeyboardArrowRight)`
+    width: 23px;
+    height: 23px;
+`;
+export const KeyboardArrowRightIcon = ({ c }) => {
+    return (
+        <span>
+            <IconKeyboardArrowRight />
         </span>
     );
 };

@@ -26,3 +26,28 @@
         background-color: rgba(0, 0, 0, 0.5);
     }
 }
+
+.bntNewRelease {
+    padding: 4px 24px;
+    border: 1px solid var(--border-primary);
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 12px;
+    margin-right: 15px;
+    background-color: transparent;
+    color: var(--text-primary);
+}
+
+.bntNewReleaseActive {
+    border-color: var(--purple-primary);
+    background-color: var(--purple-primary);
+}
+
+.bntVip {
+    background-color: #a79632;
+    color: var(--color-black);
+    font-size: 8px;
+    padding: 0px 6px;
+    height: 14px;
+    border-radius: 5px;
+}

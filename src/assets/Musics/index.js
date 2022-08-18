@@ -1,0 +1,135 @@
+// info IntroducSong
+
+export const InfoIntroducSong = [
+    {
+        id: 1,
+        name: 'Đỉnh cao Pop',
+        singer: 'Britney Spears,Christina Aguilera',
+        img: require('~/assets/Musics/IntroducSong/img1.jpg'),
+    },
+    {
+        id: 2,
+        name: '2010s Pop',
+        singer: 'Katy Perry,Taylor Swift,Justin Bieber',
+        img: require('~/assets/Musics/IntroducSong/img2.jpg'),
+    },
+    {
+        id: 3,
+        name: 'Đỉnh cao EDM',
+        singer: 'Avicii,Calvin Harris,Alan Walker',
+        img: require('~/assets/Musics/IntroducSong/img3.jpg'),
+    },
+    {
+        id: 4,
+        name: 'Đỉnh cao Latin',
+        singer: 'Ricky Martin,Shakira,Maluma',
+        img: require('~/assets/Musics/IntroducSong/img4.jpg'),
+    },
+    {
+        id: 5,
+        name: 'EDM thư giãn tốt nhất',
+        singer: 'Calvin Harris,Alan Walker,The Chainsmokers',
+        img: require('~/assets/Musics/IntroducSong/img5.jpg'),
+    },
+];
+
+// info NewRealease
+
+export const InfoNewRealease = [
+    {
+        id: 1,
+        name: 'Obsessed',
+        singer: 'Rhosy',
+        img: require('~/assets/Musics/NewRelease/img/img1.jpg'),
+        time: 'Hôm Nay',
+        tick: false,
+    },
+    {
+        id: 2,
+        name: 'Tim Vỡ',
+        singer: 'Dế Choắt , Uyên Pím',
+        img: require('~/assets/Musics/NewRelease/img/img2.jpg'),
+        time: 'Hôm Nay',
+        tick: false,
+    },
+    {
+        id: 3,
+        name: 'Super Freaky Girl',
+        singer: 'Nicki Minaj',
+        img: require('~/assets/Musics/NewRelease/img/img3.jpg'),
+        time: 'Hôm Nay',
+        tick: true,
+    },
+    {
+        id: 4,
+        name: 'Ngồi Yên Anh Sang Ngay',
+        singer: 'Isaac',
+        img: require('~/assets/Musics/NewRelease/img/img4.jpg'),
+        time: 'Hôm Nay',
+        tick: false,
+    },
+    {
+        id: 5,
+        name: 'Sunshine',
+        singer: 'Tyga,Jhené Aiko,Pop Smoke',
+        img: require('~/assets/Musics/NewRelease/img/img5.jpg'),
+        time: 'Hôm Nay',
+        tick: false,
+    },
+    {
+        id: 6,
+        name: 'Vệ Tinh',
+        singer: 'HIEUTHUHAI,Hoàng Tôn,Kewtiie',
+        img: require('~/assets/Musics/NewRelease/img/img6.jpg'),
+        time: 'Hôm Nay',
+        tick: false,
+    },
+    {
+        id: 7,
+        name: 'Go Around',
+        singer: 'Kane Brown',
+        img: require('~/assets/Musics/NewRelease/img/img7.jpg'),
+        time: 'Hôm Nay',
+        tick: false,
+    },
+    {
+        id: 8,
+        name: 'Beach House',
+        singer: 'Carly Rae Jepsen',
+        img: require('~/assets/Musics/NewRelease/img/img8.jpg'),
+        time: 'Hôm Nay',
+        tick: true,
+    },
+    {
+        id: 9,
+        name: 'Giá Như',
+        singer: 'Quờ, Hải Sâm',
+        img: require('~/assets/Musics/NewRelease/img/img9.jpg'),
+        time: 'Hôm Nay',
+        tick: false,
+    },
+    {
+        id: 10,
+        name: 'Bảo Sao',
+        singer: 'Rick Choi, Gill',
+        img: require('~/assets/Musics/NewRelease/img/img10.jpg'),
+        time: 'Hôm Nay',
+        tick: false,
+    },
+    {
+        id: 11,
+        name: 'I am Not Me',
+        singer: 'Maximillian',
+        img: require('~/assets/Musics/NewRelease/img/img11.jpg'),
+        time: 'Hôm Nay',
+        tick: true,
+    },
+    {
+        id: 12,
+        name: 'Thiên Lý',
+        singer: 'NIT, Hưng CaCao',
+        img: require('~/assets/Musics/NewRelease/img/img12.jpg'),
+        time: 'Hôm Nay',
+        tick: false,
+    },
+];

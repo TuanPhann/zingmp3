@@ -1,5 +1,6 @@
 import styles from './StyleMusicControl.module.scss';
 import classNames from 'classnames/bind';
+import Tippy from '@tippyjs/react';
 import {
     DotsHorizontalIcon,
     HeartIcon,
@@ -16,6 +17,10 @@ import {
 const cx = classNames.bind(styles);
 
 function MusicControl() {
+    function setvalue() {}
+
+    function setVolume() {}
+
     return (
         <div className={cx('wrap')}>
             <div className={cx('song')}>
@@ -29,38 +34,52 @@ function MusicControl() {
                     <h4>Nhìn về phía em</h4>
                     <p>Đình Dũng, Minh Vương</p>
                 </div>
-                <DotsHorizontalIcon />
                 <HeartIcon />
-                <div className={cx('control')}>
-                    <div className={cx('btn')}>
+                <DotsHorizontalIcon />
+            </div>
+            <div className={cx('control')}>
+                <div className={cx('btn')}>
+                    <Tippy content="Phát ngẫu nhiên">
                         <button>
                             <ShuffleIcon />
                         </button>
-                        <button>
-                            <SkipPreviousIcon />
-                        </button>
-                        <button>
-                            <PlayCircleIcon />
-                        </button>
-                        <button>
-                            <SkipNextIcon />
-                        </button>
+                    </Tippy>
+                    <button>
+                        <SkipPreviousIcon />
+                    </button>
+                    <button>
+                        <PlayCircleIcon />
+                    </button>
+                    <button>
+                        <SkipNextIcon />
+                    </button>
+                    <Tippy content="Phát lại bài hát">
                         <button>
                             <RepeatIcon />
                         </button>
-                    </div>
-                    <div className={cx('slider')}>
-                        <div className={cx('current-time')}>00:00</div>
-                        <input type="range" min="1" max="100" value="0" className={cx('seek-slider')} />
-                        <div className={cx('total-time')}>00:00</div>
-                    </div>
-                    <div className={cx('icon')}>
-                        <MicrophoneIcon />
-                        <RestoreIcon />
-                        <VolumeFullIcon />
-                        <input type="range" min="1" max="100" value="0" className={cx('volum-slider')} />
-                    </div>
+                    </Tippy>
                 </div>
+                <div className={cx('slider')}>
+                    <div className={cx('current-time')}>00:00</div>
+                    <input type="range" min="1" max="100" value="0" className={cx('seek-slider')} onChange={setvalue} />
+                    <div className={cx('total-time')}>00:00</div>
+                </div>
+            </div>
+            <div className={cx('icon')}>
+                <Tippy content="Xem lời bài hát">
+                    <button>
+                        <MicrophoneIcon />
+                    </button>
+                </Tippy>
+                <Tippy content="Chế độ cửa sổ">
+                    <button>
+                        <RestoreIcon />
+                    </button>
+                </Tippy>
+                <button>
+                    <VolumeFullIcon />
+                </button>
+                <input type="range" min="1" max="100" value="0" className={cx('volum-slider')} onChange={setVolume} />
             </div>
         </div>
     );

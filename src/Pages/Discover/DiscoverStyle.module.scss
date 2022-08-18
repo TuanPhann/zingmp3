@@ -1,3 +1,48 @@
 .wrapper {
-    padding-left: 60px;
+    padding: 0 60px;
+    margin: 70px 0 90px 0;
+    height: 10000px;
+
+    .title {
+        margin: 30px 0 16px 0;
+        display: flex;
+        justify-content: space-between;
+
+        h3 {
+            font-size: 20px;
+            color: var(--text-primary);
+        }
+    }
+
+    .all {
+        display: flex;
+        align-items: center;
+        color: var(--text-secondary);
+        font-size: 12px;
+        &:hover {
+            color: var(--link-text-hover);
+            cursor: pointer;
+        }
+    }
+}
+
+.NewRelease,
+.introduc-song {
+    margin-top: 30px;
+
+    h3 {
+        font-size: 20px;
+        color: var(--text-primary);
+    }
+}
+
+.NewRelease {
+    .btn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn-release {
+        margin: 15px 0;
+    }
 }

@@ -7,11 +7,28 @@
 }
 
 .content {
-    padding: 0 60px;
-    width: 70.21%;
+    width: 70%;
     border-right: 1px solid var(--border-primary);
+    position: fixed;
+    top: 0;
+    left: 237px;
+    height: 100vh;
+    overflow: overlay;
 }
 
 .playlist {
     width: 329px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-left: 4px;
+    background-color: var(--bg-layout);
+}
+
+.control {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-layout);
 }

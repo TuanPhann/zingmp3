@@ -8,7 +8,9 @@ function Button({
     to,
     href,
     children,
-
+    bntNewRelease = false,
+    bntVip = false,
+    bntNewReleaseActive = false,
     btnUpdateVip = false,
     btnLive = false,
     onClick,
@@ -31,6 +33,9 @@ function Button({
     const clases = cx('wrapper', {
         btnLive,
         btnUpdateVip,
+        bntNewRelease,
+        bntNewReleaseActive,
+        bntVip,
     });
     return (
         <Compn className={clases} {...Props}>
