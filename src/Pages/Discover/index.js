@@ -6,6 +6,11 @@ import RecentlyMusic from '~/components/discover/Recently';
 import IntroducSong from '~/components/discover/IntroducSong';
 import Button from '~/components/Button';
 import NewRelease from '~/components/discover/NewRelease';
+import SongByDay from '~/components/discover/SongByday';
+import InfoSinger from '~/components/InfoSinger';
+import Artists from '~/components/discover/Altist';
+import TotalPoster from '~/components/TotalPoster';
+import SliderSinger from '~/components/discover/SliderSinger';
 
 const cx = classNames.bind(styles);
 
@@ -43,6 +48,40 @@ function Discover() {
                 <div className={cx('song')}>
                     <NewRelease />
                 </div>
+            </div>
+            <div className={cx('SongByDay')}>
+                <h3>Thứ Sáu Đây Rồi</h3>
+                <SongByDay />
+            </div>
+            <div className={cx('fan-singer')}>
+                <InfoSinger />
+                <IntroducSong singer />
+            </div>
+            <div className={cx('artist')}>
+                <h3>Nghệ Sĩ Yêu Thích</h3>
+                <Artists />
+            </div>
+            <div className={cx('MusicEveryDay')}>
+                <h3>Nhạc Mới Mối Ngày</h3>
+                <IntroducSong musicEveryDay />
+            </div>
+            <div className={cx('poster')}>
+                <TotalPoster />
+            </div>
+            <div className={cx('singer')}>
+                <SliderSinger />
+            </div>
+            <div className={cx('top')}>
+                <h3>Top 100</h3>
+                <IntroducSong />
+            </div>
+            <div className={cx('edm')}>
+                <InfoSinger pass />
+                <IntroducSong />
+            </div>
+            <div className={cx('SongByDay')}>
+                <h3>XONE's CORNER</h3>
+                <SongByDay />
             </div>
         </div>
     );

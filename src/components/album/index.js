@@ -10,7 +10,14 @@ function InfoAlbum({ info }) {
                 <img src={info.img} alt={info.name} />
             </div>
             <h4>{info.name}</h4>
-            <p>{info.singer}</p>
+            {info.check ? (
+                <div className={cx('introduc')}>
+                    <span>{info.textOne}</span>
+                    <p>{info.textTwo}</p>
+                </div>
+            ) : (
+                <p>{info.singer}</p>
+            )}
         </div>
     );
 }

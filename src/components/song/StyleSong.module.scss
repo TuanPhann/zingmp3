@@ -21,11 +21,16 @@
 }
 
 .info {
-    line-height: 1.7;
-    h4 {
+    line-height: 1.8;
+    width: 50%;
+    h3 {
         color: var(--text-primary);
         font-size: 14px;
         font-weight: 500;
+        white-space: nowrap;
+        width: 100%;
+        text-overflow: ellipsis;
+        overflow: hidden;
     }
     p {
         font-size: 12px;

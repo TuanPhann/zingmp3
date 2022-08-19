@@ -26,8 +26,14 @@
     }
 }
 
+.edm,
+.top,
+.MusicEveryDay,
+.SongByDay,
 .NewRelease,
-.introduc-song {
+.introduc-song,
+.fan-singer,
+.artist {
     margin-top: 30px;
 
     h3 {
@@ -45,4 +51,19 @@
     .btn-release {
         margin: 15px 0;
     }
+}
+
+.artist,
+.SongByDay {
+    h3 {
+        margin-bottom: 16px;
+    }
+}
+
+.poster {
+    margin-top: 20px;
+}
+
+.singer {
+    margin-top: 30px;
 }

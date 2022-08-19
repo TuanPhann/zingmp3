@@ -13,7 +13,7 @@ function Song({ songs }) {
                     <img src={songs.images} alt={songs.name} />
                 </div>
                 <div className={cx('info')}>
-                    <h4>{songs.name}</h4>
+                    <h3>{songs.name}</h3>
                     <p>{songs.author}</p>
                 </div>
             </div>

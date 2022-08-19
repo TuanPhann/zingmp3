@@ -1,0 +1,16 @@
+.image {
+    width: 32%;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    object-fit: cover;
+    img {
+        width: 100%;
+        transition: all 0.3s linear;
+        height: 100%;
+    }
+
+    &:hover img {
+        transform: scale(1.1);
+    }
+}
