@@ -8,6 +8,7 @@ function Button({
     to,
     href,
     children,
+    btnRadio = false,
     bntNewRelease = false,
     bntVip = false,
     bntNewReleaseActive = false,
@@ -36,6 +37,7 @@ function Button({
         bntNewRelease,
         bntNewReleaseActive,
         bntVip,
+        btnRadio,
     });
     return (
         <Compn className={clases} {...Props}>

@@ -11,6 +11,8 @@ import InfoSinger from '~/components/InfoSinger';
 import Artists from '~/components/discover/Altist';
 import TotalPoster from '~/components/TotalPoster';
 import SliderSinger from '~/components/discover/SliderSinger';
+import Radio from '~/components/discover/Radio';
+import TopRanking from '~/components/discover/TopRanking';
 
 const cx = classNames.bind(styles);
 
@@ -82,6 +84,14 @@ function Discover() {
             <div className={cx('SongByDay')}>
                 <h3>XONE's CORNER</h3>
                 <SongByDay />
+            </div>
+            <div className={cx('radio')}>
+                <h3>Radio Nổi Bật</h3>
+                <Radio />
+            </div>
+            <div className={cx('newMusic')}>
+                <h3>Nhạc Mới</h3>
+                <TopRanking />
             </div>
         </div>
     );

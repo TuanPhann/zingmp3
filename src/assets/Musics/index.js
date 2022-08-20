@@ -395,3 +395,153 @@ export const ImgSinger = [
         img: require('~/assets/Musics/Singer/img/png11.png'),
     },
 ];
+
+// info radio
+
+export const InfoRadio = [
+    {
+        id: 1,
+        name: 'XONE Radio',
+        text: '100k đang nghe',
+        img: require('~/assets/Musics/Radio/img/img1.jpg'),
+        imgSmall: require('~/assets/Musics/Radio/img/img1a.jpg'),
+    },
+    {
+        id: 2,
+        name: 'V-POP',
+        text: '100k đang nghe',
+        img: require('~/assets/Musics/Radio/img/img2.jpg'),
+        imgSmall: require('~/assets/Musics/Radio/img/img2a.jpg'),
+    },
+    {
+        id: 3,
+        name: 'Chạm',
+        text: '100k đang nghe',
+        img: require('~/assets/Musics/Radio/img/img3.jpg'),
+        imgSmall: require('~/assets/Musics/Radio/img/img3a.jpg'),
+    },
+    {
+        id: 4,
+        name: 'On Air',
+        text: '100k đang nghe',
+        img: require('~/assets/Musics/Radio/img/img4.jpg'),
+        imgSmall: require('~/assets/Musics/Radio/img/img4a.jpg'),
+    },
+    {
+        id: 5,
+        name: 'Bolero',
+        text: '100k đang nghe',
+        img: require('~/assets/Musics/Radio/img/img5.jpg'),
+        imgSmall: require('~/assets/Musics/Radio/img/img5a.jpg'),
+    },
+    {
+        id: 6,
+        name: 'US-UK',
+        text: '100k đang nghe',
+        img: require('~/assets/Musics/Radio/img/img6.jpg'),
+        imgSmall: require('~/assets/Musics/Radio/img/img6a.jpg'),
+    },
+    {
+        id: 7,
+        name: 'K-POP',
+        text: '100k đang nghe',
+        img: require('~/assets/Musics/Radio/img/img7.jpg'),
+        imgSmall: require('~/assets/Musics/Radio/img/img7a.jpg'),
+    },
+    {
+        id: 8,
+        name: 'The One Radio',
+        text: '100k đang nghe',
+        img: require('~/assets/Musics/Radio/img/img8.jpg'),
+        imgSmall: require('~/assets/Musics/Radio/img/img8a.jpg'),
+    },
+    {
+        id: 9,
+        name: 'Acoustic',
+        text: '100k đang nghe',
+        img: require('~/assets/Musics/Radio/img/img9.jpg'),
+        imgSmall: require('~/assets/Musics/Radio/img/img9a.jpg'),
+    },
+    {
+        id: 10,
+        name: 'Rap Việt',
+        text: '100k đang nghe',
+        img: require('~/assets/Musics/Radio/img/img10.jpg'),
+        imgSmall: require('~/assets/Musics/Radio/img/img10a.jpg'),
+    },
+];
+
+// info New Music
+
+export const InfoNewMusic = [
+    {
+        id: 1,
+        other: '#1',
+        name: 'Tòng Phu',
+        singer: 'Keyo',
+        img: require('~/assets/Musics/Radio/img/img1.jpg'),
+        time: '10.08.2022',
+    },
+    {
+        id: 2,
+        other: '#2',
+        name: 'Chia Tay Là Giải Pháp',
+        singer: 'Hương Ly',
+        img: require('~/assets/Musics/Radio/img/img2.jpg'),
+        time: '10.08.2022',
+    },
+    {
+        id: 3,
+        other: '#3',
+        name: 'Vô Tư',
+        singer: 'Anh Quân Idol',
+        img: require('~/assets/Musics/Radio/img/img3.jpg'),
+        time: '10.08.2022',
+    },
+    {
+        id: 4,
+        other: '#4',
+        name: 'Một Thời Nhanh Như Một Ngày',
+        singer: 'Doãn Hiếu,BMZ',
+        img: require('~/assets/Musics/Radio/img/img4.jpg'),
+        time: '10.08.2022',
+    },
+    {
+        id: 5,
+        other: '#5',
+        name: 'Chỉ Cần Em',
+        singer: 'Huy Diệc, Hoa Hồng Dại Music',
+        img: require('~/assets/Musics/Radio/img/img5.jpg'),
+        time: '10.08.2022',
+    },
+    {
+        id: 6,
+        other: '#6',
+        name: 'Ngồi Yên Anh Sang Ngay',
+        singer: 'Issac',
+        img: require('~/assets/Musics/Radio/img/img6.jpg'),
+        time: '10.08.2022',
+    },
+    {
+        id: 7,
+        other: '#7',
+        name: 'Em Gái Miền Tây',
+        singer: 'H2K',
+        img: require('~/assets/Musics/Radio/img/img7.jpg'),
+        time: '10.08.2022',
+    },
+    {
+        id: 8,
+        other: '#8',
+        name: 'Tình Duyên Sầu Vương',
+        singer: 'Phạm Sắc Lệnh',
+        img: require('~/assets/Musics/Radio/img/img8.jpg'),
+        time: '10.08.2022',
+    },
+
+    {
+        id: 8,
+        total: true,
+        title: 'Xem Tất Cả',
+    },
+];
