@@ -5,6 +5,15 @@ import { InfoNewMusic } from '~/assets/Musics';
 import Slider from 'react-slick';
 
 const cx = classNames.bind(styles);
+function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return <div className={className} style={{ ...style, display: 'none' }} onClick={onClick} />;
+}
+
+function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return <div className={className} style={{ ...style, display: 'none' }} onClick={onClick} />;
+}
 
 function TopRanking() {
     const settings = {
@@ -15,6 +24,8 @@ function TopRanking() {
         autoplay: true,
         autoplaySpeed: 5000,
         cssEase: 'ease-in',
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
     };
     return (
         <div className={cx('wrap')}>

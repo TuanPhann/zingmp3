@@ -1,12 +1,17 @@
 .wrap {
-    width: 375px;
-    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    border-radius: 4px;
-    overflow: hidden;
+    .image {
+        width: 375px;
+        height: 210px;
+        border-radius: 4px;
+        overflow: hidden;
 
-    img {
-        width: 100%;
-        height: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+        }
     }
 }

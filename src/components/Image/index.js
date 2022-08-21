@@ -6,7 +6,9 @@ const cx = classNames.bind(styles);
 function Image({ images, classes }) {
     return (
         <div className={cx('wrap')}>
-            <img className={classes} src={images.img} alt={images.name} />
+            <div className={cx('image')}>
+                <img className={classes} src={images.img} alt={images.name} />
+            </div>
         </div>
     );
 }

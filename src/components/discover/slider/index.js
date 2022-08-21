@@ -10,24 +10,12 @@ import { DataSlider } from '~/assets/images';
 
 const cx = classNames.bind(styles);
 
-function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
-    return <div className={className} style={{ ...style, display: 'none' }} onClick={onClick} />;
-}
-
-function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
-    return <div className={className} style={{ ...style, display: 'none' }} onClick={onClick} />;
-}
-
 function SliderImg() {
     const settings = {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 4000,
-        nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />,
     };
     return (
         <div className={cx('slider')}>

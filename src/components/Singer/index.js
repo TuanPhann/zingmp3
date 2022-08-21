@@ -5,8 +5,10 @@ const cx = classNames.bind(styles);
 
 function Singer({ info }) {
     return (
-        <div className={cx('image')}>
-            <img src={info.img} alt={info.name} />
+        <div className={cx('wrapper')}>
+            <div className={cx('image')}>
+                <img src={info.img} alt={info.name} />
+            </div>
         </div>
     );
 }
