@@ -32,6 +32,7 @@ import { Microphone } from '@styled-icons/heroicons-outline/Microphone';
 import { Restore } from '@styled-icons/fluentui-system-regular/Restore';
 import { VolumeFull } from '@styled-icons/boxicons-regular/VolumeFull';
 import { KeyboardArrowRight } from '@styled-icons/material-outlined/KeyboardArrowRight';
+import { PlayFill } from '@styled-icons/bootstrap/PlayFill';
 
 // icon title Individual Sidebar
 const LbMusic = styled(LibraryMusic)`
@@ -576,10 +577,24 @@ const IconKeyboardArrowRight = styled(KeyboardArrowRight)`
     width: 23px;
     height: 23px;
 `;
-export const KeyboardArrowRightIcon = ({ c }) => {
+export const KeyboardArrowRightIcon = () => {
     return (
         <span>
             <IconKeyboardArrowRight />
+        </span>
+    );
+};
+
+// icon btnPlay Playlist
+const IconPlayFill = styled(PlayFill)`
+    width: 23px;
+    height: 23px;
+    color: #fff;
+`;
+export const PlayFillIcon = () => {
+    return (
+        <span>
+            <IconPlayFill />
         </span>
     );
 };

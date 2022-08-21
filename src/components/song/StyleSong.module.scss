@@ -1,40 +1,96 @@
 .item-song {
     padding: 8px;
-}
-
-.info-song {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-}
+    border-radius: 5px;
 
-.music {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-    border-radius: 3px;
-    overflow: hidden;
-    img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-}
+    .info-song {
+        display: flex;
+        align-items: center;
+        width: 70%;
+        position: relative;
 
-.info {
-    line-height: 1.8;
-    width: 50%;
-    h3 {
-        color: var(--text-primary);
-        font-size: 14px;
-        font-weight: 500;
-        white-space: nowrap;
-        width: 100%;
-        text-overflow: ellipsis;
-        overflow: hidden;
+        .music {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+            border-radius: 3px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .info {
+            line-height: 1.8;
+            width: 65%;
+
+            h3 {
+                color: var(--text-primary);
+                font-size: 14px;
+                font-weight: 500;
+                white-space: nowrap;
+                width: 100%;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+            p {
+                font-size: 12px;
+                font-weight: 300;
+                color: var(--text-secondary);
+                white-space: nowrap;
+                width: 100%;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+        }
+
+        .btn-play {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 40px;
+            height: 40px;
+            border-radius: 3px;
+            overflow: hidden;
+            cursor: pointer;
+            display: none;
+        }
     }
-    p {
-        font-size: 12px;
-        font-weight: 300;
-        color: var(--text-secondary);
+
+    .btn {
+        margin-right: 15px;
+        display: flex;
+
+        button {
+            border-radius: 50%;
+            background-color: transparent;
+            margin-right: 15px;
+            display: none;
+
+            &:hover {
+                background-color: var(--alpha-bg);
+                cursor: pointer;
+            }
+        }
+
+        .btn-heart {
+            width: 20px;
+        }
+    }
+
+    &:hover {
+        background-color: var(--alpha-bg);
+    }
+
+    &:hover .btn-play {
+        display: block;
+    }
+
+    &:hover button {
+        display: block;
     }
 }
