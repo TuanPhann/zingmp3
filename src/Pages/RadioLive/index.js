@@ -1,5 +1,5 @@
 function RadioLive() {
-    return <h1>RadioLive</h1>;
+    return <h1 style={{ marginTop: '100px', color: '#fff' }}>RadioLive</h1>;
 }
 
 export default RadioLive;

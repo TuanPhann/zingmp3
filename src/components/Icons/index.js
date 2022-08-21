@@ -598,3 +598,73 @@ export const PlayFillIcon = () => {
         </span>
     );
 };
+
+// icon btnPlay Discover
+const IconPlayCircleOutlineDiscover = styled(PlayCircleOutline)`
+    width: 50px;
+    height: 50px;
+    color: #fff;
+`;
+export const PlayCircleOutlineDiscover = () => {
+    return (
+        <span>
+            <IconPlayCircleOutlineDiscover />
+        </span>
+    );
+};
+
+// icon Heart Discover
+const IconHeartDiscover = styled(Heart)`
+    width: 23px;
+    height: 23px;
+    color: #fff;
+`;
+export const HeartDiscoverIcon = () => {
+    return (
+        <span>
+            <IconHeartDiscover />
+        </span>
+    );
+};
+
+// icon DotsHorizontal Discover
+const IconDotsHorizontalDiscover = styled(DotsHorizontal)`
+    width: 23px;
+    height: 23px;
+    color: #fff;
+`;
+export const DotsHorizontalDiscover = () => {
+    return (
+        <span>
+            <IconDotsHorizontalDiscover />
+        </span>
+    );
+};
+
+// icon btnPlayfill discover
+const IconPlayFillDiscover = styled(PlayFill)`
+    width: 30px;
+    height: 30px;
+    color: #fff;
+`;
+export const PlayFillDiscover = () => {
+    return (
+        <span>
+            <IconPlayFillDiscover />
+        </span>
+    );
+};
+
+// icon btnPlay Discover
+const IconPlayCircleOutlineNewMusic = styled(PlayCircleOutline)`
+    width: 50px;
+    height: 50px;
+    color: #fff;
+`;
+export const PlayCircleOutlineNewMusic = () => {
+    return (
+        <span>
+            <IconPlayCircleOutlineNewMusic />
+        </span>
+    );
+};

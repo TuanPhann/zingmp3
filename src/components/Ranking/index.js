@@ -1,5 +1,6 @@
 import styles from './StyleRanking.module.scss';
 import classNames from 'classnames/bind';
+import { PlayCircleOutlineNewMusic } from '~/components/Icons';
 
 const cx = classNames.bind(styles);
 
@@ -25,6 +26,10 @@ function Ranking({ info }) {
                             <span className={cx('rank-time')}>{info.time}</span>
                         </div>
                     </div>
+
+                    <button className={cx('btn-play')}>
+                        <PlayCircleOutlineNewMusic />
+                    </button>
                 </div>
             )}
         </div>

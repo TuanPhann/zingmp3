@@ -1,5 +1,5 @@
 function Music() {
-    return <h1>Music</h1>;
+    return <h1 style={{ marginTop: '100px', color: '#fff' }}>Music</h1>;
 }
 
 export default Music;

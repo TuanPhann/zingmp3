@@ -1,18 +1,50 @@
 .wraper {
     width: 216px;
+    position: relative;
 
-    .image {
-        width: 100%;
-        height: 216px;
-        border-radius: 4px;
-        overflow: hidden;
-        object-fit: cover;
-        cursor: pointer;
-
-        img {
+    .display {
+        .image {
             width: 100%;
-            height: 100%;
-            transition: all 0.3s linear;
+            height: 216px;
+            border-radius: 4px;
+            overflow: hidden;
+            object-fit: cover;
+            cursor: pointer;
+
+            img {
+                width: 100%;
+                height: 100%;
+                transition: all 0.3s linear;
+            }
+        }
+
+        .hover {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 216px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: none;
+
+            button {
+                margin: 0 10px;
+                padding: 5px;
+                border-radius: 50%;
+                background-color: transparent;
+
+                &:hover {
+                    background-color: var(--alpha-bg);
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &:hover .hover {
+            display: flex;
+            cursor: pointer;
         }
 
         &:hover img {

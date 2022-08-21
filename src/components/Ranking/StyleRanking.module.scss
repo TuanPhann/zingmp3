@@ -12,6 +12,8 @@
     font-weight: 700;
     justify-content: center;
     align-items: center;
+    position: relative;
+    cursor: pointer;
 
     .image {
         width: 120px;
@@ -52,6 +54,12 @@
             font-size: 12px;
             color: var(--text-secondary);
             margin-top: 3px;
+            font-weight: 400;
+
+            &:hover {
+                color: var(--link-text-hover);
+                text-decoration: underline;
+            }
         }
     }
 
@@ -82,5 +90,21 @@
         display: flex;
         align-items: center;
         font-size: 14px;
+    }
+
+    .btn-play {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        width: 116px;
+        height: 120px;
+        background-color: rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+        border-radius: 4px;
+        display: none;
+    }
+
+    &:hover .btn-play {
+        display: block;
     }
 }
