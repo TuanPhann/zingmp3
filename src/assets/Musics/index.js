@@ -336,7 +336,7 @@ export const Posters = [
     },
 ];
 
-// Img poster
+// Img Singer
 
 export const ImgSinger = [
     {
@@ -540,8 +540,110 @@ export const InfoNewMusic = [
     },
 
     {
-        id: 8,
+        id: 9,
         total: true,
         title: 'Xem Tất Cả',
+    },
+];
+
+// info Events
+
+export const InfoEvents = [
+    {
+        id: 1,
+        game: 'MINIGAME',
+        title: 'MINIGAME-SONE CỨNG LÀ AI?',
+        time: 'Đang diễn ra',
+        text: 'Lượt đặt lịch',
+        avatar1: require('~/assets/Musics/Events/img/imga.jpg'),
+        avatar2: require('~/assets/Musics/Events/img/imgb.jpg'),
+        avatar3: require('~/assets/Musics/Events/img/imgc.jpg'),
+        avatar4: require('~/assets/Musics/Events/img/imgd.jpg'),
+        booking: '+1k',
+        img: require('~/assets/Musics/Events/img/img1.jpg'),
+        btn: 'THAM GIA',
+    },
+    {
+        id: 2,
+        game: 'PHÁT HÀNH BÀI HÁT',
+        title: 'After Like-IVE',
+        time: '16:00 Thứ Hai, 22 Tháng 8',
+        text: 'Lượt Quan Tâm',
+        avatar1: require('~/assets/Musics/Events/img/imga.jpg'),
+        avatar2: require('~/assets/Musics/Events/img/imgb.jpg'),
+        avatar3: require('~/assets/Musics/Events/img/imgc.jpg'),
+        avatar4: require('~/assets/Musics/Events/img/imgd.jpg'),
+        booking: '+208',
+        img: require('~/assets/Musics/Events/img/img2.jpg'),
+        btn: 'QUAN TÂM',
+    },
+    {
+        id: 3,
+        game: 'SINH NHẬT SAO',
+        title: 'Sinh Nhật Sao x Da LAB',
+        time: 'Đang diễn ra',
+        text: 'Lượt chúc mừng',
+        avatar1: require('~/assets/Musics/Events/img/imga.jpg'),
+        avatar2: require('~/assets/Musics/Events/img/imgb.jpg'),
+        avatar3: require('~/assets/Musics/Events/img/imgc.jpg'),
+        avatar4: require('~/assets/Musics/Events/img/imgd.jpg'),
+        booking: '+81',
+        img: require('~/assets/Musics/Events/img/img3.jpg'),
+        btn: 'THAM GIA',
+    },
+];
+
+// info logo
+
+export const InfoLogo = [
+    {
+        id: 1,
+        name: 'beggers',
+        img: require('~/assets/LogoParner/beggers.png'),
+    },
+    {
+        id: 2,
+        name: 'empire',
+        img: require('~/assets/LogoParner/empire.png'),
+    },
+    {
+        id: 3,
+        name: 'FUGA',
+        img: require('~/assets/LogoParner/FUGA.png'),
+    },
+    {
+        id: 4,
+        name: 'Kakao-M',
+        img: require('~/assets/LogoParner/Kakao-M.png'),
+    },
+    {
+        id: 5,
+        name: 'monstercat',
+        img: require('~/assets/LogoParner/monstercat.png'),
+    },
+    {
+        id: 6,
+        name: 'orcahrd',
+        img: require('~/assets/LogoParner/orcahrd.png'),
+    },
+    {
+        id: 7,
+        name: 'SM-Entertainment',
+        img: require('~/assets/LogoParner/SM-Entertainment.png'),
+    },
+    {
+        id: 8,
+        name: 'sony',
+        img: require('~/assets/LogoParner/sony.png'),
+    },
+    {
+        id: 9,
+        name: 'universal',
+        img: require('~/assets/LogoParner/universal-1.png'),
+    },
+    {
+        id: 10,
+        name: 'yg',
+        img: require('~/assets/LogoParner/yg.png'),
     },
 ];

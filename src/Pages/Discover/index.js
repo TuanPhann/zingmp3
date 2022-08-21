@@ -13,6 +13,8 @@ import TotalPoster from '~/components/TotalPoster';
 import SliderSinger from '~/components/discover/SliderSinger';
 import Radio from '~/components/discover/Radio';
 import TopRanking from '~/components/discover/TopRanking';
+import TotalEvent from '~/components/discover/TotalEvent';
+import ListParner from '~/components/discover/ListParner';
 
 const cx = classNames.bind(styles);
 
@@ -92,6 +94,15 @@ function Discover() {
             <div className={cx('newMusic')}>
                 <h3>Nhạc Mới</h3>
                 <TopRanking />
+                <IntroducSong />
+            </div>
+            <div className={cx('event')}>
+                <h3>Sự kiện</h3>
+                <TotalEvent />
+            </div>
+            <div className={cx('partner')}>
+                <h4>Đối Tác Âm Nhạc</h4>
+                <ListParner />
             </div>
         </div>
     );

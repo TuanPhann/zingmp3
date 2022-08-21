@@ -57,3 +57,14 @@
     bottom: -5px;
     left: 33%;
 }
+
+.btnEvents {
+    padding: 9px 20px;
+    background-color: var(--purple-primary);
+    border-color: var(--purple-primary);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 20px;
+    display: block;
+}

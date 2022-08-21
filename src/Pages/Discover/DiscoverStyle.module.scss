@@ -1,7 +1,6 @@
 .wrapper {
     padding: 0 60px;
     margin: 70px 0 90px 0;
-    height: 10000px;
 
     .title {
         margin: 30px 0 16px 0;
@@ -25,6 +24,8 @@
         }
     }
 }
+
+.event,
 .newMusic,
 .edm,
 .top,
@@ -78,5 +79,25 @@
         font-weight: 600;
         font-size: 16px;
         color: var(--text-primary);
+    }
+}
+
+.partner {
+    margin-top: 40px;
+    padding: 0 40px;
+
+    h4 {
+        margin-bottom: 27px;
+        font-size: 12px;
+        letter-spacing: 1.71px;
+        font-weight: 700;
+        color: var(--text-secondary);
+        text-transform: uppercase;
+        cursor: pointer;
+        text-align: center;
+
+        &:hover {
+            color: var(--link-text-hover);
+        }
     }
 }
