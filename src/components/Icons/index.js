@@ -33,6 +33,8 @@ import { Restore } from '@styled-icons/fluentui-system-regular/Restore';
 import { VolumeFull } from '@styled-icons/boxicons-regular/VolumeFull';
 import { KeyboardArrowRight } from '@styled-icons/material-outlined/KeyboardArrowRight';
 import { PlayFill } from '@styled-icons/bootstrap/PlayFill';
+import { ArrowIosDownwardOutline } from '@styled-icons/evaicons-outline/ArrowIosDownwardOutline';
+import { MenuAlt2 } from '@styled-icons/heroicons-solid/MenuAlt2';
 
 // icon title Individual Sidebar
 const LbMusic = styled(LibraryMusic)`
@@ -665,6 +667,48 @@ export const PlayCircleOutlineNewMusic = () => {
     return (
         <span>
             <IconPlayCircleOutlineNewMusic />
+        </span>
+    );
+};
+
+// icon music note page MV
+const IconMusicNote = styled(Music)`
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+`;
+export const MusicNoteIcon = () => {
+    return (
+        <span>
+            <IconMusicNote />
+        </span>
+    );
+};
+
+// icon arrow down page MV
+const IconArrowDown = styled(ArrowIosDownwardOutline)`
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+`;
+export const ArrowDownIcon = () => {
+    return (
+        <span>
+            <IconArrowDown />
+        </span>
+    );
+};
+
+// icon menu page MV
+const IconMenuAlt2 = styled(MenuAlt2)`
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+`;
+export const MenuAlt2Icon = () => {
+    return (
+        <span>
+            <IconMenuAlt2 />
         </span>
     );
 };

@@ -1,9 +1,9 @@
-import styles from './StyleRecently.module.scss';
-import classNames from 'classnames/bind';
+// import styles from './StyleRecently.module.scss';
+// import classNames from 'classnames/bind';
 import AlbumSongRecently from '~/components/AlbumSongRecently';
 import { InfoAlumRecently } from '~/assets/images';
 
-const cx = classNames.bind(styles);
+// const cx = classNames.bind(styles);
 
 function RecentlyMusic() {
     return (

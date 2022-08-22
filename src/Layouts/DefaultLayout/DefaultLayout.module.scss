@@ -15,6 +15,7 @@
     left: 237px;
     height: 100vh;
     overflow: overlay;
+    max-height: calc(100vh - 90px);
 }
 
 .playlist {

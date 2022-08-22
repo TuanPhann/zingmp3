@@ -1,0 +1,21 @@
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 14px;
+    background-color: #424040;
+    border-radius: 4px;
+
+    .item {
+        width: 49%;
+        font-size: 12px;
+        border-radius: 4px;
+        padding: 10px;
+        cursor: pointer;
+        color: var(--text-primary);
+
+        &:hover {
+            background-color: var(--alpha-bg);
+        }
+    }
+}

@@ -8,7 +8,10 @@ function Button({
     to,
     href,
     children,
+    // leftIcon = false,
+    // RightIcon = false,
     btnRadio = false,
+    btnMv = false,
     btnEvents = false,
     bntNewRelease = false,
     bntVip = false,
@@ -40,10 +43,13 @@ function Button({
         bntVip,
         btnRadio,
         btnEvents,
+        btnMv,
     });
     return (
         <Compn className={clases} {...Props}>
+            {/* {leftIcon && <>{leftIcon}</>} */}
             {children}
+            {/* {RightIcon && <>{RightIcon}</>} */}
         </Compn>
     );
 }

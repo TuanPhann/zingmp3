@@ -33,6 +33,7 @@
     --main-text-stroke: #fff;
     --white: #fff;
     --primary-bg: #282828;
+    --text-item-hover: #fff;
 }
 
 body {
@@ -86,4 +87,38 @@ button {
 
 .slick-prev {
     left: -44px;
+}
+
+// css MV custom matine navlink
+.my-span-mv {
+    font-size: 14px;
+}
+
+.my-btn-mv {
+    width: unset;
+    height: 100%;
+    color: var(--navigation-text);
+
+    &:hover {
+        background-color: transparent;
+    }
+
+    &:hover .my-span-mv {
+        color: var(--text-primary);
+    }
+}
+
+.my-btn-mv[data-active]:hover {
+    background-color: transparent;
+}
+
+.my-btn-mv[data-active] {
+    background-color: transparent;
+    border-bottom: 1px solid var(--purple-primary);
+    color: var(--text-primary);
+}
+
+.my-text-mv {
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
 }

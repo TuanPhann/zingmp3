@@ -20,7 +20,7 @@ const publicRoute = [
     { path: '/newMusic', component: NewMusic },
     { path: '/category', component: Category },
     { path: '/topMusic', component: TopMusic },
-    { path: '/mv', component: Mv },
+    { path: '/mv/*', component: Mv },
     { path: '/music', component: Music },
     { path: '/playlist', component: Playlist },
     { path: '/recently', component: Recently },

@@ -1,4 +1,4 @@
-import styles from './StyleBtnRadio.modeule.scss';
+import styles from './StyleBtnRadio.module.scss';
 import classNames from 'classnames/bind';
 import { CricleSvg } from '~/assets/Musics/Radio/svg';
 import Button from '../Button';
