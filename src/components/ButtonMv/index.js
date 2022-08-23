@@ -5,7 +5,19 @@ import { Popover, Button } from '@mantine/core';
 
 const cx = classNames.bind(styles);
 
-function ButtonMv({ children, list = false }) {
+function ButtonMv({ children, list = false, dataV, dataUsUK, dataKpop, dataHoaTau }) {
+    let Layout = [];
+
+    if (dataV) {
+        Layout = dataV;
+    } else if (dataUsUK) {
+        Layout = dataUsUK;
+    } else if (dataKpop) {
+        Layout = dataKpop;
+    } else if (dataHoaTau) {
+        Layout = dataHoaTau;
+    }
+
     return (
         <div>
             {list ? (
@@ -53,20 +65,39 @@ function ButtonMv({ children, list = false }) {
                         </Button>
                     </Popover.Target>
                     <Popover.Dropdown>
-                        {list ? (
-                            <div className={cx('wrap')}>
-                                <div className={cx('item')}>Rap-Việt</div>
-                                <div className={cx('item')}>Rook-Việt</div>
-                                <div className={cx('item')}>Nhạc Trữ Tình</div>
-                                <div className={cx('item')}>Nhạc Cách Mạng</div>
-                            </div>
-                        ) : (
-                            <div></div>
-                        )}
+                        <div className={cx('wrap')}>
+                            {Layout.map((names) => {
+                                return (
+                                    <div key={names.id} className={cx('item')}>
+                                        {names.name}
+                                    </div>
+                                );
+                            })}
+                        </div>
                     </Popover.Dropdown>
                 </Popover>
             ) : (
-                <Popover width={200} position="bottom" withArrow shadow="md">
+                <Popover
+                    closeOnClickOutside
+                    width={180}
+                    position="bottom-start"
+                    withArrow
+                    shadow="md"
+                    styles={(theme) => ({
+                        arrow: {
+                            marginLeft: 35,
+                            backgroundColor: '#424040',
+                            border: 'unset',
+                        },
+
+                        dropdown: {
+                            backgroundColor: '#ffffff1a',
+                            padding: 0,
+                            border: 'unset',
+                            // overflow: 'hidden',
+                        },
+                    })}
+                >
                     <Popover.Target>
                         <Button
                             styles={(theme) => ({
@@ -90,7 +121,11 @@ function ButtonMv({ children, list = false }) {
                         </Button>
                     </Popover.Target>
                     <Popover.Dropdown>
-                        <div className={cx('wrap')}>ajhsdvhja</div> : <div></div>
+                        <div className={cx('container')}>
+                            <div className={cx('item')}>Nghe Nhiều </div>
+                            <div className={cx('item')}>Nổi Bật</div>
+                            <div className={cx('item')}>Nhiều Nhất</div>
+                        </div>
                     </Popover.Dropdown>
                 </Popover>
             )}

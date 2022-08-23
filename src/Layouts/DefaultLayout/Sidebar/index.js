@@ -34,10 +34,10 @@ function Sidebar() {
                 />
             </div>
             <div className={cx('list-title')}>
-                <TitleSidebar rightIcon={<PlayCircleOutlineIcon />} leftIcon={<LibraryIcon />} to="/">
+                <TitleSidebar rightIcon={<PlayCircleOutlineIcon />} leftIcon={<LibraryIcon />} to="/individual">
                     Cá Nhân
                 </TitleSidebar>
-                <TitleSidebar leftIcon={<DiscIcon />} to="/discover">
+                <TitleSidebar leftIcon={<DiscIcon />} to="/">
                     Khám Phá
                 </TitleSidebar>
                 <TitleSidebar rightIcon={<PlayCircleOutlineIcon />} leftIcon={<ChartIcon />} to="/zingchart">
@@ -74,16 +74,16 @@ function Sidebar() {
                 <h4>Thư Viện</h4>
                 <TitleSidebar
                     textSmall
-                    to="/music"
+                    to="/individual/music"
                     leftIcon={<FolderMusicIcon />}
                     rightIcon={<PlayCircleOutlineIcon />}
                 >
                     Bài hát
                 </TitleSidebar>
-                <TitleSidebar textSmall to="/playlist" leftIcon={<QueueMusicIcon />}>
+                <TitleSidebar textSmall to="/individual/playlist" leftIcon={<QueueMusicIcon />}>
                     Playlist
                 </TitleSidebar>
-                <TitleSidebar textSmall to="/recently" leftIcon={<ClockIcon />}>
+                <TitleSidebar textSmall to="/individual/recently" leftIcon={<ClockIcon />}>
                     Gần đây
                 </TitleSidebar>
             </div>

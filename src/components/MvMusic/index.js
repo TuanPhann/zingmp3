@@ -1,5 +1,6 @@
 import styles from './StyleMvMusic.module.scss';
 import classNames from 'classnames/bind';
+import { PlayCircleOutlineMV } from '~/components/Icons';
 
 const cx = classNames.bind(styles);
 
@@ -9,6 +10,9 @@ function MvMusic({ info }) {
             <div className={cx('image')}>
                 <img src={info.img} alt={info.name} />
                 <div className={cx('time')}>{info.time}</div>
+                <div className={cx('icon-hover')}>
+                    <PlayCircleOutlineMV />
+                </div>
             </div>
             <div className={cx('info-song')}>
                 <div className={cx('avatar-singer')}>

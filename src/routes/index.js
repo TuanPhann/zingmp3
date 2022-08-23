@@ -12,8 +12,8 @@ import Playlist from '~/Pages/Playlist';
 import Recently from '~/Pages/ Recently';
 
 const publicRoute = [
-    { path: '/', component: Individual },
-    { path: '/discover', component: Discover },
+    { path: '/individual/*', component: Individual },
+    { path: '/', component: Discover },
     { path: '/zingChart', component: ZingChart },
     { path: '/radioLive', component: RadioLive },
     { path: '/following', component: Following },
@@ -21,9 +21,9 @@ const publicRoute = [
     { path: '/category', component: Category },
     { path: '/topMusic', component: TopMusic },
     { path: '/mv/*', component: Mv },
-    { path: '/music', component: Music },
-    { path: '/playlist', component: Playlist },
-    { path: '/recently', component: Recently },
+    { path: '/individual/music', component: Music },
+    { path: '/individual/playlist', component: Playlist },
+    { path: '/individual/recently', component: Recently },
 ];
 
 export { publicRoute };

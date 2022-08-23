@@ -712,3 +712,31 @@ export const MenuAlt2Icon = () => {
         </span>
     );
 };
+
+// icon btnPlay MV
+const IconPlayCircleOutlineMV = styled(PlayCircleOutline)`
+    width: 50px;
+    height: 50px;
+    color: #fff;
+`;
+export const PlayCircleOutlineMV = () => {
+    return (
+        <span>
+            <IconPlayCircleOutlineMV />
+        </span>
+    );
+};
+
+// icon btnPlay header individual
+const IconPlayFillIndividual = styled(PlayFill)`
+    width: 26px;
+    height: 26px;
+    color: #fff;
+`;
+export const PlayFillIndividualIcon = () => {
+    return (
+        <span>
+            <IconPlayFillIndividual />
+        </span>
+    );
+};

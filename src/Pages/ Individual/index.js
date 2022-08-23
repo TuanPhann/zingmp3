@@ -1,5 +1,23 @@
+import styles from './StyleIndividual.module.scss';
+import classNames from 'classnames/bind';
+import { Routes, Route } from 'react-router-dom';
+import { publicRouteIndividual } from '~/routes/routeIndividual';
+import HeaderIndividual from '~/Pages/ Individual/HeaderIndividual';
+
+const cx = classNames.bind(styles);
+
 function Individual() {
-    return <h1 style={{ marginTop: '100px', color: '#fff' }}>content</h1>;
+    return (
+        <div className={cx('wrapper')}>
+            <HeaderIndividual />
+            <Routes>
+                {publicRouteIndividual.map((item, index) => {
+                    const Pages = item.component;
+                    return <Route key={index} path={item.path} element={<Pages />} />;
+                })}
+            </Routes>
+        </div>
+    );
 }
 
 export default Individual;
