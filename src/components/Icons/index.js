@@ -740,3 +740,87 @@ export const PlayFillIndividualIcon = () => {
         </span>
     );
 };
+
+// icon music note favorite
+const IconMusicFavorite = styled(Music)`
+    width: 15px;
+    height: 15px;
+    color: #fff;
+`;
+export const MusicFavoriteIcon = () => {
+    return (
+        <span>
+            <IconMusicFavorite />
+        </span>
+    );
+};
+
+// icon Heart Favorite
+const IconHeartFavorite = styled(Heart)`
+    width: 15px;
+    height: 15px;
+    color: #878484;
+`;
+export const HeartFavoriteIcon = () => {
+    return (
+        <span>
+            <IconHeartFavorite />
+        </span>
+    );
+};
+
+// icon threedot Favorite
+const IconDotsHorizontalFavorite = styled(DotsHorizontal)`
+    width: 15px;
+    height: 15px;
+    color: #878484;
+`;
+export const DotsHorizontalFavoriteIcon = () => {
+    return (
+        <span>
+            <IconDotsHorizontalFavorite />
+        </span>
+    );
+};
+
+// icon Microphone Favorite
+const IconMicrophoneFavorite = styled(Microphone)`
+    width: 15px;
+    height: 15px;
+    color: #878484;
+`;
+export const MicrophoneFavoriteIcon = () => {
+    return (
+        <span>
+            <IconMicrophoneFavorite />
+        </span>
+    );
+};
+
+// icon MV favorite
+const IconMusicVideoFavorite = styled(MusicVideo)`
+    width: 15px;
+    height: 15px;
+    color: #878484;
+`;
+export const MusicVideoFavoriteIcon = () => {
+    return (
+        <span>
+            <IconMusicVideoFavorite />
+        </span>
+    );
+};
+
+// icon btnPlay Favorite
+const IconPlayFillFavorite = styled(PlayFill)`
+    width: 23px;
+    height: 23px;
+    color: #fff;
+`;
+export const PlayFillFavoriteIcon = () => {
+    return (
+        <span>
+            <IconPlayFillFavorite />
+        </span>
+    );
+};

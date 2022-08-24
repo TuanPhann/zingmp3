@@ -1,1 +1,15 @@
+.wrap {
+    .title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        border-bottom: 1px solid var(--border-primary);
 
+        h5 {
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--text-secondary);
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.wrap {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        font-size: 16px;
+        margin-top: 16px;
+        color: var(--text-secondary);
+        font-weight: 500;
+        margin-bottom: 16px;
+    }
+}
