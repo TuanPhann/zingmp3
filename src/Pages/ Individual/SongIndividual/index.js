@@ -10,6 +10,7 @@ const cx = classNames.bind(styles);
 function SongIndividual() {
     return (
         <div className={cx('wrap')}>
+            ahsdkjhasdjk
             <div className={cx('btn-nav-link')}>
                 {DataFavoriteNavLink.map((info, index) => {
                     return <BtnNavLink favorite key={index} info={info} />;
