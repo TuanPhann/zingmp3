@@ -10,6 +10,7 @@ function Button({
     children,
     // leftIcon = false,
     // RightIcon = false,
+    btnCategory = false,
     btnRadio = false,
     btnMv = false,
     btnEvents = false,
@@ -44,6 +45,7 @@ function Button({
         btnRadio,
         btnEvents,
         btnMv,
+        btnCategory,
     });
     return (
         <Compn className={clases} {...Props}>

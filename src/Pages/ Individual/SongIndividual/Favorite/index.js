@@ -13,7 +13,7 @@ function Favorite() {
                 <h5>THỞI GIAN</h5>
             </div>
             <div className={cx('List')}>
-                <ListFavorite />
+                <ListFavorite individual />
             </div>
         </div>
     );

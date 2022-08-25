@@ -134,3 +134,30 @@ button {
 .my-btn-root[data-active]:hover {
     background-color: #7200a1;
 }
+
+// css stt newMusic
+
+.total,
+.topOne,
+.topTwo,
+.topThree {
+    opacity: 1;
+    -webkit-text-stroke: 1px var(--main-text-stroke);
+    font-size: 32px;
+    font-weight: 900;
+    color: transparent;
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topOne {
+    -webkit-text-stroke: 1px #4a90e2;
+}
+
+.topTwo {
+    -webkit-text-stroke: 1px #50e3c2;
+}
+
+.topThree {
+    -webkit-text-stroke: 1px #e35050;
+}

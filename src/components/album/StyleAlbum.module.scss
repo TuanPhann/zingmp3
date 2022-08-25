@@ -1,6 +1,8 @@
 .wraper {
-    width: 216px;
+    width: 20%;
     position: relative;
+    padding: 0 15px;
+    margin-bottom: 20px;
 
     .display {
         .image {
@@ -21,7 +23,7 @@
         .hover {
             position: absolute;
             top: 0;
-            width: 100%;
+            width: 87.4%;
             height: 216px;
             display: flex;
             justify-content: center;

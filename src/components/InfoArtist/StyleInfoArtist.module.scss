@@ -1,3 +1,5 @@
+//css discover
+
 .wraper {
     width: 216px;
     height: 287px;
@@ -35,6 +37,65 @@
                 overflow: hidden;
                 border-radius: 4px;
                 cursor: pointer;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    &:hover .avatar {
+        transform: scale(1.1);
+    }
+}
+
+// css category
+
+.wraper-1 {
+    width: 277px;
+    height: 156px;
+    position: relative;
+    margin-bottom: 30px;
+
+    .image {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        cursor: pointer;
+        border-radius: 4px;
+        object-fit: cover;
+
+        img {
+            width: 100%;
+            height: 100%;
+            transition: all 0.3s linear;
+        }
+    }
+
+    .introduce {
+        position: absolute;
+        bottom: 15px;
+        width: 100%;
+        padding: 0 15px;
+
+        h3 {
+            height: 18px;
+            text-transform: uppercase;
+        }
+        .small-img {
+            display: flex;
+
+            .avatar-3,
+            .avatar-2,
+            .avatar-1 {
+                width: 50.39px;
+                height: 50.39px;
+                overflow: hidden;
+                border-radius: 4px;
+                cursor: pointer;
+                margin-right: 5px;
 
                 img {
                     width: 100%;

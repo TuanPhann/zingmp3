@@ -156,3 +156,28 @@
         display: none;
     }
 }
+
+// css NewMusic
+
+.wrap {
+    .number {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 12%;
+        margin-right: 20px;
+
+        .stt {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+        }
+
+        .status {
+            width: 10px;
+            height: 2px;
+            background-color: #adacac;
+        }
+    }
+}

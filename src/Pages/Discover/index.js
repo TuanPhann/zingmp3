@@ -63,7 +63,7 @@ function Discover() {
             </div>
             <div className={cx('artist')}>
                 <h3>Nghệ Sĩ Yêu Thích</h3>
-                <Artists />
+                <Artists discover />
             </div>
             <div className={cx('MusicEveryDay')}>
                 <h3>Nhạc Mới Mối Ngày</h3>

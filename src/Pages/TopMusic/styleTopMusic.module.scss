@@ -1,0 +1,49 @@
+.container {
+    margin-top: 70px;
+    .wrap {
+        position: relative;
+
+        .blur {
+            background: url(https://zjs.zmdcdn.me/zmp3-desktop/releases/v1.7.23/static/media/banner-100.33cafe6b.png)
+                center top / cover no-repeat;
+            filter: grayscale(1);
+            height: 260px;
+        }
+
+        .bg-alpha {
+            width: 100%;
+            height: 260px;
+            background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 37%, var(--layout-bg));
+            position: absolute;
+            top: 0;
+        }
+
+        .bg-alpha-1 {
+            width: 100%;
+            height: 260px;
+            background-image: linear-gradient(180deg, var(--layout-bg), var(--layout-bg));
+            position: absolute;
+            top: 0;
+            opacity: 0.8;
+        }
+    }
+
+    .wrapper {
+        padding: 30px 70px;
+
+        h3 {
+            margin-bottom: 16px;
+            font-size: 20px;
+            color: var(--text-primary);
+            font-weight: 700;
+        }
+
+        .topmusicHoaTau,
+        .topmusicUsUk,
+        .topmusicCA,
+        .TopMusicV,
+        .outstanding {
+            margin-bottom: 30px;
+        }
+    }
+}

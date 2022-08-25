@@ -82,3 +82,14 @@
     min-width: 120px;
     color: var(--text-item-hover);
 }
+
+.btnCategory {
+    font-weight: 500;
+    font-size: 12px;
+    background-color: transparent;
+    border: 1px solid var(--border-primary);
+    color: var(--text-primary);
+    border-radius: 30px;
+    padding: 9px 24px;
+    cursor: pointer;
+}

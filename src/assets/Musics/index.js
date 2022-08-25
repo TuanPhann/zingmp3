@@ -647,3 +647,295 @@ export const InfoLogo = [
         img: require('~/assets/LogoParner/yg.png'),
     },
 ];
+
+// info category
+
+export const ImgCategory = [
+    {
+        id: 1,
+        name: 'Motivation',
+        img: require('~/assets/Musics/category/img/img1.jpg'),
+        img1: require('~/assets/Musics/Artist/img/img1a.jpg'),
+        img2: require('~/assets/Musics/Artist/img/img1b.jpg'),
+        img3: require('~/assets/Musics/Artist/img/img1c.jpg'),
+    },
+    {
+        id: 2,
+        name: 'Tình Yêu',
+        img: require('~/assets/Musics/category/img/img2.jpg'),
+        img1: require('~/assets/Musics/Artist/img/img2a.jpg'),
+        img2: require('~/assets/Musics/Artist/img/img2b.jpg'),
+        img3: require('~/assets/Musics/Artist/img/img2c.jpg'),
+    },
+    {
+        id: 3,
+        name: 'Spa-yoga',
+        img: require('~/assets/Musics/category/img/img3.jpg'),
+        img1: require('~/assets/Musics/Artist/img/img3a.jpg'),
+        img2: require('~/assets/Musics/Artist/img/img3b.jpg'),
+        img3: require('~/assets/Musics/Artist/img/img3c.jpg'),
+    },
+    {
+        id: 4,
+        name: 'Du Lịch',
+        img: require('~/assets/Musics/category/img/img4.jpg'),
+        img1: require('~/assets/Musics/Artist/img/img4a.jpg'),
+        img2: require('~/assets/Musics/Artist/img/img4b.jpg'),
+        img3: require('~/assets/Musics/Artist/img/img4c.jpg'),
+    },
+    {
+        id: 5,
+        name: 'Tập Trung',
+        img: require('~/assets/Musics/category/img/img5.jpg'),
+        img1: require('~/assets/Musics/Artist/img/img5a.jpg'),
+        img2: require('~/assets/Musics/Artist/img/img5b.jpg'),
+        img3: require('~/assets/Musics/Artist/img/img5c.jpg'),
+    },
+    {
+        id: 6,
+        name: 'Ngủ Ngon',
+        img: require('~/assets/Musics/category/img/img6.jpg'),
+        img1: require('~/assets/Musics/Artist/img/img3a.jpg'),
+        img2: require('~/assets/Musics/Artist/img/img3b.jpg'),
+        img3: require('~/assets/Musics/Artist/img/img3c.jpg'),
+    },
+    {
+        id: 7,
+        name: 'Workout',
+        img: require('~/assets/Musics/category/img/img7.jpg'),
+        img1: require('~/assets/Musics/Artist/img/img4a.jpg'),
+        img2: require('~/assets/Musics/Artist/img/img4b.jpg'),
+        img3: require('~/assets/Musics/Artist/img/img4c.jpg'),
+    },
+    {
+        id: 8,
+        name: 'Tiệc Tùng    ',
+        img: require('~/assets/Musics/category/img/img8.jpg'),
+        img1: require('~/assets/Musics/Artist/img/img5a.jpg'),
+        img2: require('~/assets/Musics/Artist/img/img5b.jpg'),
+        img3: require('~/assets/Musics/Artist/img/img5c.jpg'),
+    },
+];
+
+// info TopMusic
+
+export const InfoTopMusic = [
+    {
+        id: 1,
+        name: 'Đỉnh cao Pop',
+        singer: 'Britney Spears,Christina Aguilera',
+        img: require('~/assets/Musics/IntroducSong/img1.jpg'),
+    },
+    {
+        id: 2,
+        name: '2010s Pop',
+        singer: 'Katy Perry,Taylor Swift,Justin Bieber',
+        img: require('~/assets/Musics/IntroducSong/img2.jpg'),
+    },
+    {
+        id: 3,
+        name: 'Đỉnh cao EDM',
+        singer: 'Avicii,Calvin Harris,Alan Walker',
+        img: require('~/assets/Musics/IntroducSong/img3.jpg'),
+    },
+    {
+        id: 4,
+        name: 'Đỉnh cao Latin',
+        singer: 'Ricky Martin,Shakira,Maluma',
+        img: require('~/assets/Musics/IntroducSong/img4.jpg'),
+    },
+    {
+        id: 5,
+        name: 'EDM thư giãn tốt nhất',
+        singer: 'Calvin Harris,Alan Walker,The Chainsmokers',
+        img: require('~/assets/Musics/IntroducSong/img5.jpg'),
+    },
+    {
+        id: 6,
+        name: 'Đỉnh cao EDM',
+        singer: 'Avicii,Calvin Harris,Alan Walker',
+        img: require('~/assets/Musics/IntroducSong/img3.jpg'),
+    },
+    {
+        id: 7,
+        name: 'Đỉnh cao Latin',
+        singer: 'Ricky Martin,Shakira,Maluma',
+        img: require('~/assets/Musics/IntroducSong/img4.jpg'),
+    },
+    {
+        id: 8,
+        name: 'EDM thư giãn tốt nhất',
+        singer: 'Calvin Harris,Alan Walker,The Chainsmokers',
+        img: require('~/assets/Musics/IntroducSong/img5.jpg'),
+    },
+    {
+        id: 9,
+        name: 'Đỉnh cao Pop',
+        singer: 'Britney Spears,Christina Aguilera',
+        img: require('~/assets/Musics/IntroducSong/img1.jpg'),
+    },
+    {
+        id: 10,
+        name: '2010s Pop',
+        singer: 'Katy Perry,Taylor Swift,Justin Bieber',
+        img: require('~/assets/Musics/IntroducSong/img2.jpg'),
+    },
+    {
+        id: 11,
+        name: 'Đỉnh cao EDM',
+        singer: 'Avicii,Calvin Harris,Alan Walker',
+        img: require('~/assets/Musics/IntroducSong/img3.jpg'),
+    },
+    {
+        id: 12,
+        name: 'Đỉnh cao Latin',
+        singer: 'Ricky Martin,Shakira,Maluma',
+        img: require('~/assets/Musics/IntroducSong/img4.jpg'),
+    },
+    {
+        id: 13,
+        name: 'EDM thư giãn tốt nhất',
+        singer: 'Calvin Harris,Alan Walker,The Chainsmokers',
+        img: require('~/assets/Musics/IntroducSong/img5.jpg'),
+    },
+    {
+        id: 14,
+        name: 'Đỉnh cao EDM',
+        singer: 'Avicii,Calvin Harris,Alan Walker',
+        img: require('~/assets/Musics/IntroducSong/img3.jpg'),
+    },
+];
+
+// info nhạc âu mỹ
+export const InfoTopMusicUsUK = [
+    {
+        id: 1,
+        name: 'Đỉnh cao Pop',
+        singer: 'Britney Spears,Christina Aguilera',
+        img: require('~/assets/Musics/IntroducSong/img1.jpg'),
+    },
+    {
+        id: 2,
+        name: '2010s Pop',
+        singer: 'Katy Perry,Taylor Swift,Justin Bieber',
+        img: require('~/assets/Musics/IntroducSong/img2.jpg'),
+    },
+    {
+        id: 3,
+        name: 'Đỉnh cao EDM',
+        singer: 'Avicii,Calvin Harris,Alan Walker',
+        img: require('~/assets/Musics/IntroducSong/img3.jpg'),
+    },
+    {
+        id: 4,
+        name: 'Đỉnh cao Latin',
+        singer: 'Ricky Martin,Shakira,Maluma',
+        img: require('~/assets/Musics/IntroducSong/img4.jpg'),
+    },
+    {
+        id: 5,
+        name: 'EDM thư giãn tốt nhất',
+        singer: 'Calvin Harris,Alan Walker,The Chainsmokers',
+        img: require('~/assets/Musics/IntroducSong/img5.jpg'),
+    },
+    {
+        id: 6,
+        name: 'Đỉnh cao EDM',
+        singer: 'Avicii,Calvin Harris,Alan Walker',
+        img: require('~/assets/Musics/IntroducSong/img3.jpg'),
+    },
+    {
+        id: 7,
+        name: 'Đỉnh cao Latin',
+        singer: 'Ricky Martin,Shakira,Maluma',
+        img: require('~/assets/Musics/IntroducSong/img4.jpg'),
+    },
+    {
+        id: 8,
+        name: 'EDM thư giãn tốt nhất',
+        singer: 'Calvin Harris,Alan Walker,The Chainsmokers',
+        img: require('~/assets/Musics/IntroducSong/img5.jpg'),
+    },
+    {
+        id: 9,
+        name: 'Đỉnh cao Pop',
+        singer: 'Britney Spears,Christina Aguilera',
+        img: require('~/assets/Musics/IntroducSong/img1.jpg'),
+    },
+    {
+        id: 10,
+        name: '2010s Pop',
+        singer: 'Katy Perry,Taylor Swift,Justin Bieber',
+        img: require('~/assets/Musics/IntroducSong/img2.jpg'),
+    },
+    {
+        id: 11,
+        name: 'Đỉnh cao EDM',
+        singer: 'Avicii,Calvin Harris,Alan Walker',
+        img: require('~/assets/Musics/IntroducSong/img3.jpg'),
+    },
+    {
+        id: 12,
+        name: 'Đỉnh cao Latin',
+        singer: 'Ricky Martin,Shakira,Maluma',
+        img: require('~/assets/Musics/IntroducSong/img4.jpg'),
+    },
+    {
+        id: 13,
+        name: 'EDM thư giãn tốt nhất',
+        singer: 'Calvin Harris,Alan Walker,The Chainsmokers',
+        img: require('~/assets/Musics/IntroducSong/img5.jpg'),
+    },
+];
+
+// info nhạc Hòa Tấu
+export const InfoTopMusicHoaTau = [
+    {
+        id: 1,
+        name: 'Đỉnh cao Pop',
+        singer: 'Britney Spears,Christina Aguilera',
+        img: require('~/assets/Musics/IntroducSong/img1.jpg'),
+    },
+    {
+        id: 2,
+        name: '2010s Pop',
+        singer: 'Katy Perry,Taylor Swift,Justin Bieber',
+        img: require('~/assets/Musics/IntroducSong/img2.jpg'),
+    },
+    {
+        id: 3,
+        name: 'Đỉnh cao EDM',
+        singer: 'Avicii,Calvin Harris,Alan Walker',
+        img: require('~/assets/Musics/IntroducSong/img3.jpg'),
+    },
+    {
+        id: 4,
+        name: 'Đỉnh cao Latin',
+        singer: 'Ricky Martin,Shakira,Maluma',
+        img: require('~/assets/Musics/IntroducSong/img4.jpg'),
+    },
+    {
+        id: 5,
+        name: 'EDM thư giãn tốt nhất',
+        singer: 'Calvin Harris,Alan Walker,The Chainsmokers',
+        img: require('~/assets/Musics/IntroducSong/img5.jpg'),
+    },
+    {
+        id: 6,
+        name: 'Đỉnh cao EDM',
+        singer: 'Avicii,Calvin Harris,Alan Walker',
+        img: require('~/assets/Musics/IntroducSong/img3.jpg'),
+    },
+    {
+        id: 7,
+        name: 'Đỉnh cao Latin',
+        singer: 'Ricky Martin,Shakira,Maluma',
+        img: require('~/assets/Musics/IntroducSong/img4.jpg'),
+    },
+    {
+        id: 8,
+        name: 'EDM thư giãn tốt nhất',
+        singer: 'Calvin Harris,Alan Walker,The Chainsmokers',
+        img: require('~/assets/Musics/IntroducSong/img5.jpg'),
+    },
+];
