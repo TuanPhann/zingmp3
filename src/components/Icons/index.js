@@ -35,6 +35,7 @@ import { KeyboardArrowRight } from '@styled-icons/material-outlined/KeyboardArro
 import { PlayFill } from '@styled-icons/bootstrap/PlayFill';
 import { ArrowIosDownwardOutline } from '@styled-icons/evaicons-outline/ArrowIosDownwardOutline';
 import { MenuAlt2 } from '@styled-icons/heroicons-solid/MenuAlt2';
+import { Bookmark } from '@styled-icons/bootstrap/Bookmark';
 
 // icon title Individual Sidebar
 const LbMusic = styled(LibraryMusic)`
@@ -821,6 +822,48 @@ export const PlayFillFavoriteIcon = () => {
     return (
         <span>
             <IconPlayFillFavorite />
+        </span>
+    );
+};
+
+// icon bookmark radio
+const IconBookmark = styled(Bookmark)`
+    width: 14px;
+    height: 14px;
+    color: #fff;
+`;
+export const BookmarkIcon = () => {
+    return (
+        <span>
+            <IconBookmark />
+        </span>
+    );
+};
+
+// icon threedot raido
+const IconDotsHorizontalRadio = styled(DotsHorizontal)`
+    width: 20px;
+    height: 20px;
+    color: #fff;
+`;
+export const DotsHorizontalRadioIcon = () => {
+    return (
+        <span>
+            <IconDotsHorizontalRadio />
+        </span>
+    );
+};
+
+// icon btnPlay Radio
+const IconPlayFillRadio = styled(PlayFill)`
+    width: 25px;
+    height: 25px;
+    color: #fff;
+`;
+export const PlayFillRadioIcon = () => {
+    return (
+        <span>
+            <IconPlayFillRadio />
         </span>
     );
 };

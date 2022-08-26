@@ -1,0 +1,83 @@
+.container {
+    margin-top: 70px;
+    position: relative;
+
+    h3 {
+        font-size: 20px;
+        font-weight: 700;
+        color: var(--text-primary);
+        margin-bottom: 16px;
+    }
+    .bg-image {
+        width: 100%;
+        height: 700px;
+
+        .blur {
+            background: url(https://zjs.zmdcdn.me/zmp3-desktop/releases/v1.7.24/static/media/bg-chart.fd766403.jpg)
+                top/cover no-repeat;
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+        }
+        .alpha {
+            opacity: 0.9;
+            z-index: 0;
+            background-image: linear-gradient(180deg, var(--layout-bg), var(--layout-bg));
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .alpha-1 {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(180deg, transparent, transparent 50%, var(--layout-bg));
+        }
+    }
+    .wrap {
+        position: absolute;
+        top: 10%;
+        left: 0;
+        right: 0;
+        padding: 0 70px 50px 70px;
+
+        .xone,
+        .Show,
+        .outstanding,
+        .listen,
+        .podcast {
+            margin-top: 50px;
+        }
+
+        .listen {
+            .banner {
+                display: flex;
+                justify-content: space-between;
+
+                .image {
+                    width: 48%;
+                    height: 100%;
+                    overflow: hidden;
+                    cursor: pointer;
+                    border-radius: 5px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        transition: all 0.3s linear;
+                    }
+
+                    &:hover img {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+}
