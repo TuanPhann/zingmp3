@@ -11,7 +11,7 @@ const cx = classNames.bind(styles);
 function Mv() {
     return (
         <div className={cx('wrapper')}>
-            <HeaderMV />
+            <HeaderMV MV />
 
             <Routes>
                 {publicRouteMV.map((item, index) => {

@@ -36,6 +36,7 @@ import { PlayFill } from '@styled-icons/bootstrap/PlayFill';
 import { ArrowIosDownwardOutline } from '@styled-icons/evaicons-outline/ArrowIosDownwardOutline';
 import { MenuAlt2 } from '@styled-icons/heroicons-solid/MenuAlt2';
 import { Bookmark } from '@styled-icons/bootstrap/Bookmark';
+import { AddCircle } from '@styled-icons/fluentui-system-regular/AddCircle';
 
 // icon title Individual Sidebar
 const LbMusic = styled(LibraryMusic)`
@@ -864,6 +865,19 @@ export const PlayFillRadioIcon = () => {
     return (
         <span>
             <IconPlayFillRadio />
+        </span>
+    );
+};
+
+// icon add page Playlist
+const IconAddCircle = styled(AddCircle)`
+    width: 50px;
+    height: 50px;
+`;
+export const AddCircleIcon = () => {
+    return (
+        <span>
+            <IconAddCircle />
         </span>
     );
 };

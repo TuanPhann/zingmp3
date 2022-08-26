@@ -9,7 +9,7 @@ const cx = classNames.bind(styles);
 function Individual() {
     return (
         <div className={cx('wrapper')}>
-            <HeaderIndividual />
+            <HeaderIndividual Individual />
             <Routes>
                 {publicRouteIndividual.map((item, index) => {
                     const Pages = item.component;

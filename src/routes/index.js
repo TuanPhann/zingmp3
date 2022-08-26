@@ -21,9 +21,9 @@ const publicRoute = [
     { path: '/category', component: Category },
     { path: '/topMusic', component: TopMusic },
     { path: '/mv/*', component: Mv },
-    { path: '/individual/music', component: Music },
-    { path: '/individual/playlist', component: Playlist },
-    { path: '/individual/recently', component: Recently },
+    { path: '/individual/music/*', component: Music },
+    { path: '/individual/playlist/*', component: Playlist },
+    { path: '/individual/recently/*', component: Recently },
 ];
 
 export { publicRoute };

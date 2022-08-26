@@ -29,7 +29,6 @@ function Discover() {
                     <KeyboardArrowRightIcon />
                 </div>
             </div>
-
             <RecentlyMusic />
             <div className={cx('introduc-song')}>
                 <h3>Có thể bạn muốn nghe</h3>
