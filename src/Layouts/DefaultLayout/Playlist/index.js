@@ -7,7 +7,7 @@ import MenuSong from '~/components/MenuSong';
 
 const cx = classNames.bind(styles);
 
-function Playlist() {
+function Playlist({ handleDataSong }) {
     return (
         <div className={cx('wrapper')}>
             <div className={cx('header-menu')}>

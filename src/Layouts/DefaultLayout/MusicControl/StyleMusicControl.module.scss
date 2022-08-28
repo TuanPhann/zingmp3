@@ -71,10 +71,12 @@
             background-color: #ccc;
             border: 1px solid #ccc;
             border-radius: 50%;
+            cursor: pointer;
         }
         .seek-slider {
             width: 100%;
             height: 2px;
+
             appearance: none;
         }
 

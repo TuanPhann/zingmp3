@@ -36,6 +36,7 @@ function SongFavorite({ info, individual, newMusic }) {
                         <button className={cx('btn-play')}>
                             <PlayFillFavoriteIcon />
                         </button>
+                        <audio controls src={info.url}></audio>
                     </div>
                     <div className={cx('song')}>
                         <div className={cx('name')}>

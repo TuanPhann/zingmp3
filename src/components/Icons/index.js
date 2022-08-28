@@ -37,6 +37,7 @@ import { ArrowIosDownwardOutline } from '@styled-icons/evaicons-outline/ArrowIos
 import { MenuAlt2 } from '@styled-icons/heroicons-solid/MenuAlt2';
 import { Bookmark } from '@styled-icons/bootstrap/Bookmark';
 import { AddCircle } from '@styled-icons/fluentui-system-regular/AddCircle';
+import { PauseCircle } from '@styled-icons/fluentui-system-regular/PauseCircle';
 
 // icon title Individual Sidebar
 const LbMusic = styled(LibraryMusic)`
@@ -878,6 +879,21 @@ export const AddCircleIcon = () => {
     return (
         <span>
             <IconAddCircle />
+        </span>
+    );
+};
+
+// icon pause MusicControl
+const IconPauseCircle = styled(PauseCircle)`
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    padding: 5px;
+`;
+export const PauseCircleIcon = () => {
+    return (
+        <span>
+            <IconPauseCircle />
         </span>
     );
 };
