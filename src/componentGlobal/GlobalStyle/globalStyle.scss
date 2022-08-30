@@ -161,3 +161,11 @@ button {
 .topThree {
     -webkit-text-stroke: 1px #e35050;
 }
+.btnRepeat,
+.btnRandom {
+    color: #fff;
+}
+.activeRepeat,
+.activeRandom {
+    color: #7200a1 !important;
+}

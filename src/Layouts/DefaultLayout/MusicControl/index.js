@@ -21,6 +21,8 @@ const cx = classNames.bind(styles);
 
 function MusicControl() {
     const infoSong = useContext(Songs);
+    const [activebtnRandom, setActivebtnRandom] = useState(false);
+    const [activebtnRepeat, setActivebtnRepeat] = useState(false);
     const [isPlay, setIsPlay] = useState(false);
     const [currentSong, setCurrentSong] = useState(0);
     const [song, setSong] = useState({});
@@ -29,30 +31,59 @@ function MusicControl() {
 
     useEffect(() => {
         const dataCurrentSong = infoSong[currentSong];
-        setSong({ ...dataCurrentSong });
+
+        setSong(dataCurrentSong);
+
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [currentSong]);
 
+    useEffect(() => {
+        if (isPlay) {
+            elAudio.current.play();
+        } else {
+            elAudio.current.pause();
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [song, elAudio]);
+
+    // xử lý random Song
+    const handleRandomSong = () => {
+        setActivebtnRandom(!activebtnRandom);
+    };
+
+    // xử lý repeat
+
+    const handleRepeat = () => {
+        setActivebtnRepeat(!activebtnRepeat);
+    };
+
     //xử lý next song
-    function handleNextSong() {
-        setCurrentSong(() => {
+
+    const handleNextSong = () => {
+        if (activebtnRandom === true) {
+            const random = Math.floor(Math.random() * infoSong.length);
+            setCurrentSong(random);
+        } else {
             if (currentSong + 1 > infoSong.length - 1) {
-                return 0;
+                setCurrentSong(0);
             } else {
-                return currentSong + 1;
+                setCurrentSong(currentSong + 1);
             }
-        });
-    }
+        }
+    };
 
     //xử lý prev song
     function handlePrevSong() {
-        setCurrentSong(() => {
+        if (activebtnRandom === true) {
+            const random = Math.floor(Math.random() * infoSong.length);
+            setCurrentSong(random);
+        } else {
             if (currentSong - 1 < 0) {
-                return infoSong.length - 1;
+                setCurrentSong(infoSong.length - 1);
             } else {
-                return currentSong - 1;
+                setCurrentSong(currentSong - 1);
             }
-        });
+        }
     }
 
     //xử Lý play song
@@ -88,7 +119,7 @@ function MusicControl() {
             <div className={cx('control')}>
                 <div className={cx('btn')}>
                     <Tippy content="Phát ngẫu nhiên">
-                        <button>
+                        <button className={activebtnRandom ? 'activeRandom' : 'btnRandom'} onClick={handleRandomSong}>
                             <ShuffleIcon />
                         </button>
                     </Tippy>
@@ -100,7 +131,7 @@ function MusicControl() {
                         <SkipNextIcon />
                     </button>
                     <Tippy content="Phát lại bài hát">
-                        <button>
+                        <button className={activebtnRepeat ? 'activeRepeat' : 'btnRepeat'} onClick={handleRepeat}>
                             <RepeatIcon />
                         </button>
                     </Tippy>

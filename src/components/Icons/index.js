@@ -461,7 +461,6 @@ export const HeartIcon = () => {
 const IconShuffle = styled(Shuffle)`
     width: 32px;
     height: 32px;
-    color: #fff;
     padding: 5px;
 `;
 export const ShuffleIcon = () => {
@@ -521,7 +520,7 @@ export const SkipNextIcon = () => {
 const IconRepeat = styled(Repeat)`
     width: 32px;
     height: 32px;
-    color: #fff;
+
     padding: 5px;
 `;
 export const RepeatIcon = () => {
